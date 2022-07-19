@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.hero_section{
+  background-color: #161616;
+  width: 1070px;
+  height: 90vh;
+  display: flex;
+  padding: 0 50px;
+}
+.hero_section h1,p,a{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.heading_box h1{
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80px;
+}
+.heading_box{
+  width: 50%;
+}
+.hero_img{
+  width: 50%;
+}
+.hero_img img{
+  width: 500px;
+  height: 554px;
+  margin-top: 58px;
+}
