@@ -168,6 +168,7 @@ body{
   color: white;
   padding: 10px 30px;
   background-color: #DD0000;
+  visibility: hidden;
 }
 /* blog side CSS END */
 
@@ -341,7 +342,10 @@ justify-content: center;
 .blog img{
   width: 503px;
   height: 365px; } 
-
+.blog2 img{
+  width: 503px;
+  height: 365px;
+}
 #none{
   display: none;
 }
@@ -448,6 +452,9 @@ justify-content: center;
   }
   .info i{
     font-size: 15px;
+  }
+  #none a{
+    visibility:visible ;
   }
 }
 
