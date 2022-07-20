@@ -10,7 +10,9 @@ body{
   align-items: center;
   
 }
+
 /* Hero section CSS */
+
 .hero_section{
   background-color: #161616;
   width: 1022px;
@@ -46,7 +48,6 @@ body{
   box-shadow: inset 300px 0 0 0 #FEE445;
   color: black;
 }
-
 .heading_box{
   width: 50%;
   padding: 38px;
@@ -59,7 +60,10 @@ body{
   height: 600px;
   margin-top: 60px;
 }
+
 /* Hero section CSS END */
+
+
 
 /* Blog section css start */
 
@@ -107,6 +111,7 @@ body{
 }
 /* nav side menu CSS END*/
 
+
 /* blog side CSS start */
 .blogs{
   width: 75%;
@@ -124,7 +129,10 @@ body{
   width: 275px;
   height: 190px;
 }
-
+.blog2 img{
+  width: 275px;
+  height: 190px;
+}
 .blog1{
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 5px;
@@ -133,7 +141,6 @@ body{
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 5px;
 }
-
 .info a{
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
@@ -143,7 +150,6 @@ body{
   padding: 5px 15px;
   border: 1px solid #161616;
 }
-
 .info p{
   font-size: 15px;
   font-weight: 600;
@@ -156,12 +162,10 @@ body{
 .info {
   padding: 25px 15px;
 }
-
 #none{
   display: flex;
   justify-content: center;
   margin-top: 60px;
-  /* display: none; */
 }
 #none a{
   text-decoration: none;
@@ -170,7 +174,9 @@ body{
   background-color: #DD0000;
   visibility: hidden;
 }
+
 /* blog side CSS END */
+
 
 
 /* Blog section CSS END */
@@ -218,10 +224,13 @@ hr {
   color: white;
   margin-top: 25px;
 }
+
 /* footer CSS END  */
 
 
+
 /* Upcoming Match CSS Start  */
+
 .padding_div{
   padding: 30px 20px;
 }
@@ -259,19 +268,7 @@ hr {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* -------Responsive for mobile device----------- */
 
 
 @media screen and (max-width: 576px){
@@ -289,7 +286,6 @@ hr {
   font-weight: 500;
   text-align: center;
   line-height: 2;
-  
 }
 .hero_section p{
   font-size: 18px;
@@ -301,7 +297,6 @@ hr {
 display: flex;
 justify-content: center;
 }
-
 .heading_box {
   width: 100%;
 }
@@ -315,18 +310,20 @@ justify-content: center;
   height: 465px;
   width: 400px;
 }
+
 /* blog sec css mobile device */
-  .blogs_section{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 0px;
-    background-color: white;
-  }
-  .image_div img{
-    height: 100px;
-    width: 180px;
-  } 
+
+.blogs_section{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+  background-color: white;
+}
+.image_div img{
+  height: 100px;
+  width: 180px;
+} 
 .side_menu{
   background-color: white;
   margin-bottom: 10px;
@@ -341,7 +338,8 @@ justify-content: center;
 }
 .blog img{
   width: 503px;
-  height: 365px; } 
+  height: 365px; 
+} 
 .blog2 img{
   width: 503px;
   height: 365px;
@@ -349,6 +347,7 @@ justify-content: center;
 #none{
   display: none;
 }
+
 /* footer sec responsive start */
 
 .footer-section{
@@ -367,31 +366,14 @@ justify-content: center;
 }
 
 
+/*--------- Mobile Responsive END ----------- */
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* tab responsive */
+/* ---------tab responsive------------- */
 
 @media screen and (min-width: 577px) and (max-width:992px) {
   .hero_section{
@@ -411,7 +393,6 @@ justify-content: center;
     align-items: center;
     margin: 10px 0px;
     background-color: white;
-    
   }
   .side_menu{
     flex-direction: row;
@@ -459,26 +440,25 @@ justify-content: center;
 }
 
 
+/*--------- Tab responsive END ------------- */
 
 
 
 
 
+/* ----------destop version --------------*/
 
 
 
-
-
-
-
-
-
-
-
-/* destop version */
 @media screen and (min-width:993) and (max-width:1400) {
   #none {
     visibility: hidden;
   }
-
+  .blog2 img{
+    width: 275px;
+    height: 190px;
+  }
 }
+
+
+/* ----------- Destop responsive END ----------*/
